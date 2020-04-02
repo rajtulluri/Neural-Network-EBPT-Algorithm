@@ -25,4 +25,8 @@ For every feedforward performed, we calculate the cumulative error as:
    
    E = (1/2) * sum((y - ŷ)<sup>2</sup>)
    
- 
+This will be our loss function.
+
+In order to know the appropriate amount to adjust the weights by, we need to know the derivative of the loss function with respect to the weights.
+
+
