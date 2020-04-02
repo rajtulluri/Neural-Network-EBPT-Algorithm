@@ -11,7 +11,7 @@ Neural Networks consist of the following components
 
 The output ŷ of a simple 2-layer Neural Network is:
    
-   ŷ = sigmoid(W<sup>2</sup> * sigmoid(W<sup>1</sup> * X))
+   ŷ = sigmoid(W<sub>2</sub> * sigmoid(W<sub>1</sub> * X))
    
 You might notice that in the equation above, the weights W is the only variable that affects the output ŷ.
 Naturally, the right values for the weights determines the strength of the predictions. 
