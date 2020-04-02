@@ -8,10 +8,11 @@ Neural Networks consist of the following components
    A set of weights between each layer, W <br>
    A choice of activation function for each hidden layer, σ. In this tutorial, we’ll use a Sigmoid activation function. <br>
 
+
 The output ŷ of a simple 2-layer Neural Network is:
-
-
-
+   
+   ŷ = sigmoid(W<sup>2</sup> * sigmoid(W<sup>1</sup> * X))
+   
 You might notice that in the equation above, the weights W is the only variable that affects the output ŷ.
 Naturally, the right values for the weights determines the strength of the predictions. 
 The process of fine-tuning the weightsfrom the input data is known as training the Neural Network.
