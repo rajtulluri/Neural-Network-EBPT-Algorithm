@@ -2,11 +2,11 @@
 
 Neural Networks consist of the following components
 
-   An input layer, x
-   An arbitrary amount of hidden layers
-   An output layer, ŷ
-   A set of weights between each layer, W
-   A choice of activation function for each hidden layer, σ. In this tutorial, we’ll use a Sigmoid activation function.
+   An input layer, x <br>
+   An arbitrary amount of hidden layers <br>
+   An output layer, ŷ <br>
+   A set of weights between each layer, W <br>
+   A choice of activation function for each hidden layer, σ. In this tutorial, we’ll use a Sigmoid activation function. <br>
 
 The output ŷ of a simple 2-layer Neural Network is:
 
