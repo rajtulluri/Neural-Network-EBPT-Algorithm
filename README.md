@@ -8,6 +8,8 @@ Neural Networks consist of the following components
    A set of weights between each layer, W <br>
    A choice of activation function for each hidden layer, σ. In this tutorial, we’ll use a Sigmoid activation function. <br>
 
+![Architecture](https://github.com/rajtulluri/Neural-Network-EBPT-Algorithm/blob/master/Misc/architec.png)
+
 The output ŷ of a simple 2-layer Neural Network is:
    
    ŷ = sigmoid(W<sub>2</sub> * sigmoid(W<sub>1</sub> * X))
